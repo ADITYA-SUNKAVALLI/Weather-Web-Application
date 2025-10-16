@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg");
+  background-size: cover;
+}
+body .main {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+body .main h1 {
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+body .main #weather-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 50%;
+  gap: 20px;
+  text-align: center;
+}
+body .main #weather-form input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+body .main #weather-form button {
+  border: none;
+  background-color: #007BFF;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+}
+body .main #weather-form button:hover {
+  background-color: #0056b3;
+}
+body .main #result {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main #result #weather-result {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+body .main #result #weather-result-img {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=weather.css.map */
